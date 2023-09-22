@@ -1,11 +1,12 @@
 /*paleta de cores
-f5f5f5 - cinza claro
-333333 - cinza escuro
-FF5656 - vermelho claro
+#f5f5f5 - cinza claro
+#333333 - cinza escuro
+#FF5656 - vermelho claro
+#000336 - azul
 */
 
 h2{
-    font-family: montserrat, 'Trebuchet MS'
+    font-family: montserrat, 'Trebuchet MS';
 }
 
 body{
@@ -70,4 +71,5 @@ nav a:hover{
 .placeholder{
     float: left;
     color: #FF5656;
+    text-decoration: none;
 }
