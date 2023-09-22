@@ -5,30 +5,43 @@
 #000336 - azul
 */
 
+.content {
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
 
-footer{
-    width: 100%;
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
     position: absolute;
     bottom: 0;
-    background-color: linear-gradient(to right, #FF5656,#000336);
-    color: #fff;
-    padding: 100px 0 30px;
-    font-size: 13px;
-    line-height: 20px;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
 }
 
-.row{
-    width: 85%;
-    margin: auto;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.col{
-    flex-basis: 25%;
-    padding: 10px;
+.contact, .copyright, .admin-login {
+    flex: 1;
+    margin: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.login{
+    text-decoration: none;
 }
 
 
@@ -107,6 +120,12 @@ p{
         flex: 0 100%;
         max-width: 100%;
         padding: 15px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
