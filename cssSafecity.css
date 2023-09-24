@@ -5,6 +5,193 @@
 #000336 - azul
 */
 
+
+/*ADMIN*/
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 24px;
+}
+
+.header-welcome {
+    font-size: 18px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-title {
+    color: #333;
+    font-size: 20px;
+}
+
+.main-info {
+    color: #666;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+
+/*login*/
+.login-container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px; /* Largura total da div reduzida */
+    margin: 0 auto; /* Centralizar na horizontal */
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Impede que os campos se estendam até o final */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+/*barras de pesquisa*/
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Impede que os campos se estendam até o final */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.search-box {
+    display: flex;
+    border-radius: 20px; /* Bordas arredondadas */
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px; /* Bordas arredondadas */
+    outline: none;
+}
+
+.search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0; /* Bordas arredondadas (apenas à direita) */
+}
+
+/*site*/
+
+.login{
+    color:#EDF2F6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.login:hover{
+    color:#FF5656;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 .content {
     min-height: 100vh;
     background-color: #f0f0f0;

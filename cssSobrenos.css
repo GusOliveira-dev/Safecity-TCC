@@ -5,6 +5,20 @@
 #000336 - azul
 */
 
+.login{
+    color:#EDF2F6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.login:hover{
+    color:#FF5656;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 .content {
     min-height: 100vh;
     background-color: #f0f0f0;

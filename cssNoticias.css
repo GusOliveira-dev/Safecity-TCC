@@ -5,6 +5,59 @@
 #000336 - azul
 */
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.news-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.news-date {
+    color: #666;
+    margin-top: 10px;
+}
+
+.news-content {
+    color: #333;
+    margin-top: 10px;
+}
+
+.login{
+    color:#EDF2F6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.login:hover{
+    color:#FF5656;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .content {
     min-height: 100vh;
     background-color: #f0f0f0;
