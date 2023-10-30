@@ -56,15 +56,53 @@
     margin: 10px 0;
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+footer {
+    background-color: #333333;
+    color: #ffffff;
     padding: 10px 0;
+    text-align: center;
+    position: absolute; /* Altera a posição para absoluta */
+    bottom: 0; /* Coloca o footer no fundo da página */
+    width: 100%; /* Faz o footer ocupar a largura total da página */
 }
 
-.footer-text {
-    font-size: 14px;
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact, .copyright, .admin-login {
+    margin: 10px;
+}
+
+.contact {
+    flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .contact, .copyright, .admin-login {
+        flex-basis: 33.33%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact, .copyright, .admin-login {
+        flex-basis: 25%;
+    }
+}
+
+.contact p, .copyright p {
+    margin: 0;
+}
+
+.login {
+    color: #FF5656;
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: underline;
 }
 
 
