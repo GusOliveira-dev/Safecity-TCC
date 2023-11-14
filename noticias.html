@@ -5,6 +5,7 @@
         <title>safecity - noticias </title>
         <link rel="stylesheet" href="cssSafecity.css">
         <link rel="shortcut icon" href="faviconlogo.ico" type="image/x-icon" />
+        <script src="safecity.js"></script>
         
     </head>
         <body>
@@ -23,24 +24,12 @@
                 </div>
             </header>
 
-           
-
-            <footer>
-                <div class="footer-content">
-                    <div class="contact">
-                        <p><strong>Contato<p></strong>
-                        <p>Email:safecitygjpv@gmail.com</p>
-                    </div>
-                    <div class="copyright">
-                        <p>© Copyright safecitySP. Todos os direitos reservados.</p>
-                    </div>
-                    <div class="admin-login">
-                        <a href="loginadmin.html" class="login">Entrar (login admin)</a>
-                    </div>
-                </div>
-            </footer>
-
-
+            <br>
+            
+        <div class="tabs">
+            <button class="tab-button" onclick='getNews()'>Buscar Notícias relacionadas a segurança</button>
+            <div id="output"></div>
+        </div>
 
         </body>
 </html>
