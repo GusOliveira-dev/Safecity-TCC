@@ -4,7 +4,8 @@ function showFrame(frameNumber) {
         iframes[i].style.display = 'none';
     }
     document.getElementById('iframe-' + frameNumber).style.display = 'block';
-    }
+}
+
 
 
 function getNews() {

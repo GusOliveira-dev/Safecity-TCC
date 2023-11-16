@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>safecity - home </title>
+        <link rel="stylesheet" href="cssSafecity.css">
+        <link rel="shortcut icon" href="faviconlogo.ico" type="image/x-icon" />
+        <script src="safecity.js"></script>
+    </head>
+        <body>
+
+
+
+            <header>
+                <div class = "container">
+                    <img src="logosafe.png" width="55px" height="55px" alt="logo safecity"> 
+                    <h2 class="placeholder">safecity </a></h2>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="noticias.html">Notícias</a></li>
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <br><br>
+
+
+              <div class="tabs">
+                <button class="tab-button" onclick="showFrame(1)">SP Roubos e furtos - Visão Geral </button>
+                <button class="tab-button" onclick="showFrame(2)">Delitos por Cidade - Celular </button>
+                <button class="tab-button" onclick="showFrame(3)">Pin Map - Celular </button>
+                <button class="tab-button" onclick="showFrame(4)">Delitos por Cidade - Veículos </button>
+                <button class="tab-button" onclick="showFrame(5)">Pin Map - Veículos </button>
+              </div>
+
+              <br>
+              
+            <div class="iframe-container">
+
+                   <iframe id="iframe-1"  
+                            src="https://safecitydata.metabaseapp.com/public/dashboard/e6634e02-ed21-4868-a674-ea02815f07ab"
+                            frameborder="0"
+                            width="1700"
+                            height="1000"
+                            allowtransparency
+                    ></iframe>
+
+                    <iframe id="iframe-2"
+                        src="https://safecitydata.metabaseapp.com/public/dashboard/a135e28e-e63a-40d2-92ee-83f428b26a18"
+                        frameborder="0"
+                        width="1600"
+                        height="900"
+                        allowtransparency
+                        style="display: none;"
+                    ></iframe>
+
+                    
+                    <iframe id="iframe-3"
+                        src="https://safecitydata.metabaseapp.com/public/dashboard/17747fd7-8091-4fe6-8bb5-89bc86cb792d"
+                        frameborder="0"
+                        width="1600"
+                        height="900"
+                        allowtransparency
+                        style="display: none;"
+                    ></iframe>
+
+                    <iframe id="iframe-4"
+                        src="https://safecitydata.metabaseapp.com/public/dashboard/602e0ee0-b1ea-46a4-bf5f-c6eeaa8924bf"
+                        frameborder="0"
+                        width="1600"
+                        height="900"
+                        allowtransparency
+                        style="display: none;"
+                    ></iframe>
+
+
+                    <iframe id="iframe-5"
+                    src="https://safecitydata.metabaseapp.com/public/dashboard/ca92ed06-bba4-4b38-8135-29378ebb08dd"
+                    frameborder="0"
+                    width="1600"
+                    height="900"
+                    allowtransparency
+                    style="display: none;"
+                ></iframe>
+
+            </div>
+          
+
+        </body>
+</html>
