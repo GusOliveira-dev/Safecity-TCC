@@ -62,3 +62,12 @@ arquivo_baixado = "/SPDadosCriminais_2023.xlsx" # Aplicar o caminho onde está o
 ```
 
 4. Rode o código.
+
+---
+
+## Contato
+
+- Gustavo De Oliveira - [Linkedin](https://www.linkedin.com/in/gustavo-de-oliveira-gdo/)
+- João Carmo - [Linkedin](https://www.linkedin.com/in/jo%C3%A3o-carmo-1982a4194/)
+- Pedro Uemura - [Linkedin](https://www.linkedin.com/in/uemura/)
+- Vinicius Cassemiro - [Linkedin](https://www.linkedin.com/in/vinicius-cassemiro-71b18516b/)
